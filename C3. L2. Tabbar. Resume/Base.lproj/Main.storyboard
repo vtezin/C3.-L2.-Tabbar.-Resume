@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WRV-rZ-D0C">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,164 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="C3__L2__Tabbar__Resume" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Текущая работа" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxa-LK-GmG">
+                                <rect key="frame" x="98" y="55" width="218" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbp-gp-sRh">
+                                <rect key="frame" x="20" y="188.99999999999997" width="374" height="358.33333333333326"/>
+                                <mutableString key="text">ООО "ХК Групп" 
+Специальность: технический архитектор
+ Обязанности:  - разработка и сопровождение решения для автоматизации учета в некредитных финансовых организациях (НФО);  - организация и руководство полным жизненным циклом производства решения (разработка, тестирование, выпуск новых релизов и т.д.)</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fbp-gp-sRh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Ovz-0N-aOX"/>
+                            <constraint firstItem="fbp-gp-sRh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VbG-c6-HKk"/>
+                            <constraint firstItem="zxa-LK-GmG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dsL-PA-WJD"/>
+                            <constraint firstItem="zxa-LK-GmG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="hw8-rJ-PlX"/>
+                            <constraint firstAttribute="trailing" secondItem="fbp-gp-sRh" secondAttribute="trailing" constant="20" id="nXd-VU-G5z"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="job" id="N2V-6j-lsg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2319" y="-617"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LCg-TK-oNk">
+            <objects>
+                <viewController id="ZLO-5b-s1f" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pqF-LM-7nV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Образование" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GId-YS-DLa">
+                                <rect key="frame" x="115" y="55" width="184" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jg8-LP-L5i">
+                                <rect key="frame" x="20" y="200.99999999999997" width="374" height="334.33333333333326"/>
+                                <mutableString key="text">Московский Государственный Университет Геодезии и Картографии
+(МИИГА и К) 
+Факультет: Оптико-электронные приборы и системы
+Инженер по специальности «Оптико-электронные приборы и системы».
+
+Награжден дипломом конкурса на лучшую студенческую работу по естественным, техническим и
+гуманитарным наукам в вузах Российской Федерации.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jg8-LP-L5i" firstAttribute="leading" secondItem="pqF-LM-7nV" secondAttribute="leading" constant="20" id="SLD-mt-H3X"/>
+                            <constraint firstItem="jg8-LP-L5i" firstAttribute="centerY" secondItem="pqF-LM-7nV" secondAttribute="centerY" id="fz0-SA-EFQ"/>
+                            <constraint firstItem="GId-YS-DLa" firstAttribute="top" secondItem="rrb-33-1vp" secondAttribute="top" constant="35" id="kvg-0r-3ZO"/>
+                            <constraint firstAttribute="trailing" secondItem="jg8-LP-L5i" secondAttribute="trailing" constant="20" id="wHJ-AM-JpC"/>
+                            <constraint firstItem="GId-YS-DLa" firstAttribute="centerX" secondItem="pqF-LM-7nV" secondAttribute="centerX" id="wau-At-UDL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rrb-33-1vp"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="book" id="owE-Iy-KSF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b3T-KW-9wD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414.4927536231885" y="-617.11956521739137"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9BB-pX-7Vh">
+            <objects>
+                <viewController id="PlI-bW-L8F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bvi-py-GRg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tezin" translatesAutoresizingMaskIntoConstraints="NO" id="ZhV-OX-afb">
+                                <rect key="frame" x="-3" y="45" width="420" height="332"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="332" id="Wvk-kb-DkE"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Ggn-e8-WLQ">
+                                <rect key="frame" x="94.333333333333329" y="440" width="225.66666666666669" height="112"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Тезин Владимир" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMN-e9-mGl">
+                                        <rect key="frame" x="0.0" y="0.0" width="225.66666666666666" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="42 года" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yd-Qh-Iz6">
+                                        <rect key="frame" x="77.333333333333314" y="50" width="70.666666666666686" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Москва" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yH-6C-4Go">
+                                        <rect key="frame" x="77.666666666666671" y="88" width="70.000000000000014" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ggn-e8-WLQ" firstAttribute="centerX" secondItem="Bvi-py-GRg" secondAttribute="centerX" id="PmF-Xv-H1d"/>
+                            <constraint firstItem="ZhV-OX-afb" firstAttribute="centerX" secondItem="Bvi-py-GRg" secondAttribute="centerX" id="QLS-ji-ju6"/>
+                            <constraint firstItem="ZhV-OX-afb" firstAttribute="top" secondItem="eZK-I2-iGv" secondAttribute="top" constant="25" id="Sfu-Gx-YO9"/>
+                            <constraint firstItem="Ggn-e8-WLQ" firstAttribute="top" secondItem="ZhV-OX-afb" secondAttribute="bottom" constant="63" id="UbY-8d-8kR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eZK-I2-iGv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="man" id="RaP-0y-RWi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P8F-YZ-a5Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="647.82608695652175" y="-617.93478260869574"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Scf-nT-Kh4">
+            <objects>
+                <tabBarController id="WRV-rZ-D0C" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k4B-qf-Ook">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PlI-bW-L8F" kind="relationship" relationship="viewControllers" id="fwB-wx-XwY"/>
+                        <segue destination="ZLO-5b-s1f" kind="relationship" relationship="viewControllers" id="1zZ-YL-gg1"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="KUa-Ca-n3H"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rs0-bK-sgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-151" y="25"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Tezin" width="420" height="500"/>
+        <image name="book" width="50" height="50"/>
+        <image name="job" width="50" height="50"/>
+        <image name="man" width="50" height="50"/>
+    </resources>
 </document>
